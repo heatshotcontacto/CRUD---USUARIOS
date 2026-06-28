@@ -31,24 +31,32 @@ usuario se determinan y generan automáticamente, sin intervención manual.
 Software_CRUD_v2/
 │
 ├── controllers/
-│   └── usuario_controller.py
+│   └── usuario_controller.py      # Lógica que conecta UI ↔ DAO
+│
 ├── dao/
-│   └── usuario_dao.py
+│   └── usuario_dao.py             # Operaciones CRUD contra la BD
+│
 ├── database/
-│   ├── conexion.py
-│   └── universidad.sql
+│   ├── conexion.py                # Conexión a la BD
+│   └── universidad.sql            # Script SQL
+│
 ├── models/
-│   └── usuario.py
+│   └── usuario.py                 # Clase/modelo de datos Usuario
+│
 ├── resources/
-│   └── icons/
+│   ├── icons/                     # Íconos .png / .svg
+│   └── style.qss                  # Hoja de estilos Qt
+│
 ├── ui/
-│   ├── usuarios.ui
-│   └── usuarios_ui.py
+│   ├── usuarios_ui.py             # Generado desde el .ui (pyuic5/pyside6)
+│   └── usuarios.ui                # Diseño Qt Designer (solo visual)
+│
 ├── validators/
-│   └── usuario_validator.py
-├── main.py
-├── README.md
-└── requirements.txt
+│   └── usuario_validator.py       # Todas las validaciones
+│
+├── main.py                        # Punto de entrada de la aplicación
+├── README.md                      # Información general del proyecto
+└── requirements.txt               # Dependencias del proyecto
 ```
 
 ## Instalación
