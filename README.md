@@ -128,4 +128,5 @@ al conector a usar su implementación pura en Python, agregando `use_pure=True` 
 parámetros de conexión dentro de `database/conexion.py`.
 
 ## Autor
-### sxmuel.vm
+
+[![Instagram](https://img.shields.io/badge/Instagram-sxmuel.vm-E4405F?style=flat&logo=instagram&logoColor=white)](https://www.instagram.com/sxmuel.vm)
