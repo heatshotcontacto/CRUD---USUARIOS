@@ -5,7 +5,7 @@
 Sistema CRUD de gestión de usuarios desarrollado en Python (PyQt5) con MySQL como motor de
 base de datos, hecho como proyecto académico para la Universidad de Cuenca.
 
-![Python](https://img.shields.io/badge/Python-3.11-3776AB?logo=python&logoColor=white)
+![Python](https://img.shields.io/badge/Python-3.11.9-3776AB?logo=python&logoColor=white)
 ![PyQt5](https://img.shields.io/badge/PyQt5-5.15.11-41CD52?logo=qt&logoColor=white)
 ![MySQL](https://img.shields.io/badge/MySQL-9.7.0-4479A1?logo=mysql&logoColor=white)
 ![Status](https://img.shields.io/badge/Estado-Académico-yellow)
@@ -46,7 +46,7 @@ usuario se determinan y generan automáticamente, sin intervención manual.
 
 ## 🛠️ Tecnologías
 
-- Python 3.11
+- Python 3.11.9
 - PyQt5 5.15.11
 - mysql-connector-python 9.3.0
 - MySQL 9.7.0
