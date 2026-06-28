@@ -74,10 +74,6 @@ Software_CRUD_v2/
 ├── models/
 │   └── usuario.py                 # Clase/modelo de datos Usuario
 │
-├── resources/
-│   ├── icons/                     # Íconos .png / .svg
-│   └── style.qss                  # Hoja de estilos Qt
-│
 ├── ui/
 │   ├── usuarios_ui.py             # Generado desde el .ui (pyuic5/pyside6)
 │   └── usuarios.ui                # Diseño Qt Designer (solo visual)
