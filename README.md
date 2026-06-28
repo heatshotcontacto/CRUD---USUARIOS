@@ -1,13 +1,37 @@
-# Software_CRUD_v2
+<div align="center">
+
+# 🎓 Software_CRUD_v2
 
 Sistema CRUD de gestión de usuarios desarrollado en Python (PyQt5) con MySQL como motor de
 base de datos, hecho como proyecto académico para la Universidad de Cuenca.
+
+![Python](https://img.shields.io/badge/Python-3.11-3776AB?logo=python&logoColor=white)
+![PyQt5](https://img.shields.io/badge/PyQt5-5.15.11-41CD52?logo=qt&logoColor=white)
+![MySQL](https://img.shields.io/badge/MySQL-9.7.0-4479A1?logo=mysql&logoColor=white)
+![Status](https://img.shields.io/badge/Estado-Académico-yellow)
+
+</div>
 
 La aplicación permite crear, leer, actualizar y eliminar usuarios a partir de personas ya
 registradas en la base de datos: el rol (estudiante, docente o administrativo) y el nombre de
 usuario se determinan y generan automáticamente, sin intervención manual.
 
-## Características
+---
+
+## 📑 Contenido
+
+- [Características](#-características)
+- [Tecnologías](#-tecnologías)
+- [Estructura del proyecto](#-estructura-del-proyecto)
+- [Instalación](#-instalación)
+- [Qt Designer (pyqt5-tools)](#-qt-designer-pyqt5-tools)
+- [Generar ejecutable (PyInstaller)](#-generar-ejecutable-pyinstaller)
+- [Notas técnicas](#-notas-técnicas)
+- [Autor](#-autor)
+
+---
+
+## ✨ Características
 
 - Arquitectura en capas (DAO / Modelo / Validadores / Controlador / UI).
 - Generación automática de `nombre_usuario` en formato `primernombre.primerapellido`, con
@@ -18,14 +42,21 @@ usuario se determinan y generan automáticamente, sin intervención manual.
 - Interfaz gráfica construida en Qt Designer, con 5 pestañas: Buscar Personas, Buscar Usuario,
   Agregar Usuarios, Actualizar Usuarios y Borrar Usuario.
 
-## Tecnologías
+---
+
+## 🛠️ Tecnologías
 
 - Python 3.11
 - PyQt5 5.15.11
 - mysql-connector-python 9.3.0
 - MySQL 9.7.0
 
-## Estructura del proyecto
+---
+
+## 📂 Estructura del proyecto
+
+<details>
+<summary>Ver árbol completo de carpetas</summary>
 
 ```
 Software_CRUD_v2/
@@ -59,7 +90,11 @@ Software_CRUD_v2/
 └── requirements.txt               # Dependencias del proyecto
 ```
 
-## Instalación
+</details>
+
+---
+
+## 🚀 Instalación
 
 1. Clonar el repositorio:
    ```
@@ -92,7 +127,9 @@ Software_CRUD_v2/
    python main.py
    ```
 
-## Qt Designer (pyqt5-tools)
+---
+
+## 🎨 Qt Designer (pyqt5-tools)
 
 `pyqt5-tools` permite abrir y editar visualmente el archivo `ui/usuarios.ui`.
 
@@ -111,7 +148,9 @@ Después de editar el `.ui`, regenera el archivo Python:
 pyuic5 ui/usuarios.ui -o ui/usuarios_ui.py
 ```
 
-## Generar ejecutable (PyInstaller)
+---
+
+## 📦 Generar ejecutable (PyInstaller)
 
 ```
 pip install pyinstaller
@@ -120,13 +159,22 @@ pyinstaller --clean --onefile --windowed main.py
 
 El ejecutable se genera en la carpeta `dist/`.
 
-## Notas técnicas
+---
+
+## 🧩 Notas técnicas
 
 Se detectó un conflicto de librerías nativas entre PyQt5 y `mysql-connector-python` en Windows
 que provocaba el cierre abrupto de la aplicación sin mensaje de error. Se solucionó forzando
 al conector a usar su implementación pura en Python, agregando `use_pure=True` en los
 parámetros de conexión dentro de `database/conexion.py`.
 
-## Autor
+---
+
+## 👤 Autor
+
+<div align="center">
 
 [![Instagram](https://img.shields.io/badge/Instagram-sxmuel.vm-E4405F?style=flat&logo=instagram&logoColor=white)](https://www.instagram.com/sxmuel.vm)
+
+</div>
+
