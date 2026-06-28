@@ -1,5 +1,0 @@
-Instalacion de dependencias 
-PyQt5==5.15.11 --> Version más estable y compatible
-mysql-connector-python==9.3.0 --> Conectar la base de datos con python
-bcrypt==4.3.0 --> Encriptar las contraseñas en la base de datos, no pide pero hay que ver 
-u alternaitva para hashlib para encriptar contraseñas o re para validaciones que ya vienen con python
