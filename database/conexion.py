@@ -6,7 +6,7 @@ def connectionDB():
             host = 'localhost',
             port = 3306,
             user = 'root',
-            password = 'Samuel2006!',
+            password = 'AQUI PONEN SU CONTRASEÑA',
             database = 'universidad_cuenca',
             charset = 'utf8mb4',
             collation = 'utf8mb4_unicode_ci',
